@@ -1,0 +1,327 @@
+body {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8),rgb(17, 17, 17)),url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270%;
+    overflow-x: hidden;
+}
+.page {
+    padding: 150;
+    font-family: Lexend Deca;
+    max-height: 0;
+}
+button {
+    width: 10cm;
+    height: 1cm;
+    border-radius: 2.5vh;
+    text-align: center;
+    color: #FFFFFF;
+    width: fit-content;
+    background: #77777743;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin: 8px 12px;
+    cursor: pointer;
+}
+button:hover {
+    transition-duration: 0.5s;
+    background-color: #777777;
+}
+p {
+    font-family: Lexend Deca;
+    margin: 0.1vh;
+    font-size: 0.4cm;
+}
+h1 {
+    font-size: 1.5cm;
+    cursor: progress;
+}
+h2 {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 0.4cm;
+    font-weight: 450;
+}
+p {
+    color: #FFFFFF;
+    font-size: 0.4cm;
+}
+.center {
+    text-align: center;
+}
+.cool-stuff {
+    padding-top:1050;
+}
+.discord:hover {
+    transition: .5s;
+    transform: scale(1.15);
+    cursor: pointer;
+    }
+.github:hover {
+    transition: .5s;
+    transform: scale(1.15);
+    cursor: pointer;
+    }
+.twitch:hover {
+    transition: .5s;
+    transform: scale(1.15);
+    cursor: pointer;
+    }
+.youtube:hover {
+    transition: .5s;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.xynelgdps:hover {
+    transition: .5s;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+img {
+    width: 32;
+    height: 33;
+}
+.pfp {
+    width: 100;
+    height: 100;
+}
+.xynelgdps {
+    width: 70;
+    height: 70;
+    position: fixed;
+    right: 1cm;
+    bottom: 1cm;
+}
+.discord {
+    width: 33;
+    height: 26;
+}
+.youtube {
+    width: 35;
+    height: 27;
+}
+.cubes div {
+    position: absolute;
+    border: 10px solid rgba(128,128,128,1.0);
+    background-color: #808080;
+    width: 20px;
+    height: 20px;
+}
+.cubes div:nth-child(1) {
+    top: 10%;
+    left: 30%;
+    animation: animate 10s linear infinite;
+}
+.cubes div:nth-child(2) {
+    top: 20%;
+    left: 12%;
+    animation: animate 5s linear infinite;
+}
+.cubes div:nth-child(3) {
+    top: 31%;
+    left: 73%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(4) {
+    top: 28%;
+    left: 64%;
+    animation: animate 8s linear infinite;
+}
+.cubes div:nth-child(5) {
+    top: 37%;
+    left: 45%;
+    animation: animate 12s linear infinite;
+}
+.cubes div:nth-child(6) {
+    top: 54%;
+    left: 77%;
+    animation: animate 20s linear infinite;
+}
+.cubes div:nth-child(7) {
+    top: 82%;
+    left: 32%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(8) {
+    top: 90%;
+    left: 8%;
+    animation: animate 7s linear infinite;
+}
+
+.cubes div:nth-child(9) {
+    top: 42%;
+    left: 11%;
+    animation: animate 15s linear infinite;
+}
+.cubes div:nth-child(10) {
+    top: 78%;
+    left: 96%;
+    animation: animate 11s linear infinite;
+}
+.cubes div:nth-child(11) {
+    top: 101%;
+    left: 39%;
+    animation: animate 10s linear infinite;
+}
+.cubes div:nth-child(12) {
+    top: 173%;
+    left: 28%;
+    animation: animate 5s linear infinite;
+}
+.cubes div:nth-child(13) {
+    top: 158%;
+    left: 74%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(14) {
+    top: 184%;
+    left: 81%;
+    animation: animate 8s linear infinite;
+}
+.cubes div:nth-child(15) {
+    top: 131%;
+    left: 49%;
+    animation: animate 12s linear infinite;
+}
+.cubes div:nth-child(16) {
+    top: 119%;
+    left: 90%;
+    animation: animate 20s linear infinite;
+}
+.cubes div:nth-child(17) {
+    top: 137%;
+    left: 45%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(18) {
+    top: 5%;
+    left: 21%;
+    animation: animate 7s linear infinite;
+}
+
+.cubes div:nth-child(19) {
+    top: 148%;
+    left: 25%;
+    animation: animate 15s linear infinite;
+}
+.cubes div:nth-child(20) {
+    top: 157%;
+    left: 90%;
+    animation: animate 13s linear infinite;
+}
+.cubes div:nth-child(21) {
+    top: 242%;
+    left: 32%;
+    animation: animate 10s linear infinite;
+}
+.cubes div:nth-child(22) {
+    top: 190%;
+    left: 33%;
+    animation: animate 5s linear infinite;
+}
+.cubes div:nth-child(23) {
+    top: 187%;
+    left: 74%;
+    animation: animate 7s linear infinite;
+}
+.cubes div:nth-child(24) {
+    top: 118%;
+    left: 71%;
+    animation: animate 8s linear infinite;
+}
+.cubes div:nth-child(25) {
+    top: 153%;
+    left: 59%;
+    animation: animate 12s linear infinite;
+}
+.cubes div:nth-child(26) {
+    top: 159%;
+    left: 93%;
+    animation: animate 20s linear infinite;
+}
+.cubes div:nth-child(27) {
+    top: 214%;
+    left: 48%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(28) {
+    top: 186%;
+    left: 15%;
+    animation: animate 7s linear infinite;
+}
+
+.cubes div:nth-child(29) {
+    top: 65%;
+    left: 27%;
+    animation: animate 15s linear infinite;
+}
+.cubes div:nth-child(30) {
+    top: 235%;
+    left: 86%;
+    animation: animate 15s linear infinite;
+}
+.cubes div:nth-child(31) {
+    top: 133%;
+    left: 65%;
+    animation: animate 17s linear infinite;
+}
+.cubes div:nth-child(32) {
+    top: 146%;
+    left: 42%;
+    animation: animate 5s linear infinite;
+}
+.cubes div:nth-child(33) {
+    top: 112%;
+    left: 33%;
+    animation: animate 3s linear infinite;
+}
+.cubes div:nth-child(34) {
+    top: 156%;
+    left: 28%;
+    animation: animate 14s linear infinite;
+}
+.cubes div:nth-child(35) {
+    top: 150%;
+    left: 76%;
+    animation: animate 15s linear infinite;
+}
+.cubes div:nth-child(36) {
+    top: 131%;
+    left: 21%;
+    animation: animate 12s linear infinite;
+}
+.cubes div:nth-child(37) {
+    top: 167%;
+    left: 45%;
+    animation: animate 9s linear infinite;
+}
+.cubes div:nth-child(38) {
+    top: 128%;
+    left: 86%;
+    animation: animate 17s linear infinite;
+}
+.cubes div:nth-child(39) {
+    top: 128%;
+    left: 18%;
+    animation: animate 13s linear infinite;
+}
+.cubes div:nth-child(40) {
+    top: 187%;
+    left: 86%;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0px) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5) translateY(75px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
